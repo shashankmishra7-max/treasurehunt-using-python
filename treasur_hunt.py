@@ -25,11 +25,11 @@ print("Your mission is to find the treasure.")
 print("You are at cross road.Where do you want to go?")
 choice_1= input("Type 'left' for left or Type 'right' for right").lower()
 if choice_1 == "left" :
- choice_2 = input("you have near lack . Type 'swim' for swim and Type 'wait' for wait").lower()
+ choice_2 = input("you are near a lack . Type 'swim' for swim and Type 'wait' for wait").lower()
  if choice_2 == 'wait' :
   choice_3 = input("You are in the room.There is three door. 'blue','red','green'")
   if choice_3 == 'red' :
-   print("There is fir in the room . Game over")
+   print("There is fire in the room . Game over")
   elif choice_3 == 'blue' :
    print("There is Treasure . You won The Game")
   elif choice_3 == 'green' :
